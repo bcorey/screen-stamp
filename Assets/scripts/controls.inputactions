@@ -1,0 +1,62 @@
+{
+    "name": "controls",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "219d7ab4-765f-4824-ae76-047b7ea83f78",
+            "actions": [
+                {
+                    "name": "loadImage",
+                    "type": "PassThrough",
+                    "id": "b63577eb-50c3-4427-87af-f2df917fb561",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "118cecde-96f6-480f-b797-dea555217cdb",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "loadImage",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe959c92-94bd-4873-813e-b259c37fcfdc",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "loadImage",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7999f76e-beb6-4e56-a24f-7433cc78bb79",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "loadImage",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": []
+        }
+    ]
+}
