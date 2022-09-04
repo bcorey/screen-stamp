@@ -35,6 +35,7 @@ public class ListManager : MonoBehaviour
         manager = GameObject.FindWithTag("Manager").GetComponent<AppManager>();
 
         previewSizeMultiplier = 0.4f;
+        // test comment for git
         //previewWidth = SetPreviewWidth();
     }
 
