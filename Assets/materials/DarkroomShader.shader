@@ -57,7 +57,7 @@ Shader "ImageEffects/DarkroomShader"
                 // just invert the colors
                 //col.rgb = 1 - col.rgb;
                 
-                col.rgb = (col.r + col.g + col.b) / 3;
+                col.rgb = (col.r + col.g + col.b) / 3 / 5;
                 //col.r = col.r;
                 col.g = 0;
                 col.b = 0;

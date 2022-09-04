@@ -54,11 +54,11 @@ public class AppManager : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         activeStamp.SetShader(lightExposure);
-        background.color = Color.black;
+        //background.color = Color.black;
         yield return new WaitForSeconds(timeSetter.value);
 
         activeStamp.SetShader(darkroomPreview);
-        background.color = Color.red;                
+        //background.color = Color.black;                
         panel.enabled = true;
     }
 
